@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(mauro-lima-mOJquWMUoHs-unsplash.jpg);
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+overflow: hidden;
+}
+
+
+h2{
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: gray;
+}
+div{
+  display: flex;
+    margin: 5px;
+    align-items: center;
+
+    
+    
+}
+.clock{
+    display: flex;
+    flex-direction: row;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    opacity: .7;
+    
+    
+}
+span{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    
+
+
+}
+.text{
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    height: 20px;
+    opacity: 1;
+    
+
+}
+.num{
+    font-size: 80px;
+    opacity: 1;
+    padding: 20px;
+}
+#timing{
+    align-self: flex-end;
+}
